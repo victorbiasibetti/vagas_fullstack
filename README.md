@@ -27,10 +27,8 @@ Trabalho Remoto. Caso haja necessidade de reuniões de trabalho em um local espe
 *Obrigatórios:*
 - Javascript, ES6+ e Javascript Vanilla
 - GIT (gitlab)
-- VueJS e NuxtJS
 - HTML5
 - CSS3
-- Sass ou Less ou Stylus
 - Webpack
 - APis REST
 - NodeJS (Express)
@@ -41,6 +39,8 @@ Trabalho Remoto. Caso haja necessidade de reuniões de trabalho em um local espe
 - Cache e performance
 - Conhecimento de outros frameworks (React ou Angular)
 - Testes automatizados
+- Sass ou Less ou Stylus
+- VueJS e NuxtJS
 
 *Diferenciais:*
 - SEO
@@ -68,7 +68,7 @@ Será enviado feedback por e-mail e/ou uma chamada pelo Google Hangouts Meet.
 
 ## Contratação
 
-- PJ (Desejável que a PJ não seja MEI).
+- PJ ME.
 - Período de adaptação (experiência) de 3 meses.   
 - Salário Inicial R$ 6.000,00. 
 - Apresentando boa performance, a remuneração poderá ser reajustada de acordo com o desempenho e engajamento apresentado durante o período de adaptação. 

@@ -127,6 +127,25 @@
         <div><img src="../layout/assets/logo-placeholder-2-x.png" /></div>
       </div>
     </div>
+
+    <div class="app-footer">
+      <img src="../layout/assets/group-11.png" />
+      <div class="info">
+        <h1>Título</h1>
+        <p>
+          Informação curta e direta sobre o app divulgado na página com foco nas
+          funcionalidades
+        </p>
+        <div class="lojas">
+          <img src="../layout/assets/google-play_3.png" />
+          <img
+            class="apple"
+            src="../layout/assets/download-on-the-app-store-badge-ptbr-rgb-blk-092917_3.png"
+          />
+        </div>
+      </div>
+    </div>
+    <section></section>
   </div>
 </template>
 
@@ -308,7 +327,7 @@ img {
   justify-content: center;
   align-items: center;
   border-radius: 5px;
-  padding: 5% 20% 5% 20%;
+  padding: 10% 20% 5% 20%;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.19);
 }
 
@@ -323,5 +342,31 @@ img {
 }
 .logos > div:nth-child(16) {
   background: #fedb00;
+}
+
+.app-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  padding: 0 5%;
+}
+
+.app-footer > .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.app-footer > img {
+  width: 60%;
+  margin-left: 25%;
+}
+
+.app-footer > .info > h1 {
+  margin-bottom: 20px;
+}
+.app-footer > .info > p {
+  margin-bottom: 80px;
+  padding-right: 25%;
 }
 </style>

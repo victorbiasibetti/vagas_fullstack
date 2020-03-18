@@ -145,16 +145,146 @@
         </div>
       </div>
     </div>
-    <section></section>
+
+    <div class="products-footer">
+      <div class="title">
+        <h2>Produtos mais acessados</h2>
+        <span> Ver todos</span>
+      </div>
+      <div class="products">
+        <div class="product">
+          <div class="badge">
+            <img src="../layout/assets/triangle-copy_4.png" />
+            <span> $ 18</span>
+          </div>
+
+          <img src="../layout/assets/xbox.png" />
+          <span class="product-title"> Microsoft Xbox One S 1tb hdr 4k</span>
+          <p class="seller">Vendido por <span> Shoptime</span></p>
+          <p class="price">R$ 2.109</p>
+        </div>
+
+        <div class="product">
+          <div class="badge" style="background: #c1180f">
+            <img src="../layout/assets/triangle-copy_3.png" />
+            <span> $ 15</span>
+          </div>
+
+          <img src="../layout/assets/tv.png" />
+          <span class="product-title">
+            Smart TV LED 50" UHD 4K Samsung 50RU7100</span
+          >
+          <p class="seller">Vendido por <span> Magazine Luiza</span></p>
+          <p class="price">R$ 2.910</p>
+        </div>
+
+        <div class="product">
+          <div class="badge" style="background: #404040">
+            <img src="../layout/assets/triangle-copy_4.png" />
+            <span> $ 0</span>
+          </div>
+
+          <img src="../layout/assets/smartphone2.png" />
+          <span class="product-title">
+            Samsung Galaxy s9 128GB Azul 4G - 4GB RAM Tela 5,8"</span
+          >
+          <p class="seller">Vendido por <span> PontoFrio</span></p>
+          <p class="price">R$ 2.300</p>
+        </div>
+
+        <div class="product">
+          <div class="badge">
+            <img src="../layout/assets/triangle-copy_3.png" />
+            <span> $ 200</span>
+          </div>
+
+          <img src="../layout/assets/notebook.png" />
+          <span class="product-title">
+            Notebook Dell Inspirion 15 Intel Core i7 8GB 2TB 15,6"</span
+          >
+          <p class="seller">Vendido por <span> Shoptime</span></p>
+          <p class="price">R$ 3.100</p>
+        </div>
+
+        <div class="next">
+          <img src="../layout/assets/ic-navigate-next.png" />
+        </div>
+      </div>
+    </div>
+
+    <div class="public">
+      <div class="chrome">
+        <img src="../layout/assets/chrome.png" />
+        <p>Instale a extensão no seu Google Chrome</p>
+
+        <span> Texte de suporte do título</span>
+      </div>
+
+      <div class="store">
+        <p>
+          <span>Baixe nosso app </span> e não fique de fora do que acontece no
+          produto.
+        </p>
+        <img src="../layout/assets/google-play_3.png" />
+        <img
+          src="../layout/assets/download-on-the-app-store-badge-ptbr-rgb-blk-092917_3.png"
+        />
+      </div>
+    </div>
+
+    <div class="footer">
+      <ul>
+        <li>Sobre</li>
+        <li>Quem somos</li>
+        <li>Impresa</li>
+        <li>Trabalhe conosco</li>
+        <li>Política de privacidade</li>
+      </ul>
+      <ul>
+        <li>Destaques</li>
+        <li>Black Friday</li>
+        <li>Black Night</li>
+        <li>Dia dos Pais</li>
+        <li>Dia dos Namorados</li>
+      </ul>
+      <ul>
+        <li>Contato</li>
+        <li>Fale Conosco</li>
+        <li>Midia Kit / Parceria</li>
+        <li>Dúvidas frequentes</li>
+      </ul>
+      <ul class="social">
+        <li>Redes Sociais</li>
+        <li><img src="../layout/assets/path.png" /></li>
+        <li><img src="../layout/assets/path_2.png" /></li>
+        <li><img src="../layout/assets/combined-shape.png" /></li>
+        <li><img src="../layout/assets/shape.png" /></li>
+      </ul>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s with the release
+        of Letraset sheets containing Lorem Ipsum passages, and more recently
+        with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.
+      </p>
+    </div>
   </div>
 </template>
 
-<script></script>
-
 <style>
-@import '../layout/colors.css';
 img {
   max-width: 100%;
+}
+
+li,
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
 }
 
 .logo {
@@ -368,5 +498,174 @@ img {
 .app-footer > .info > p {
   margin-bottom: 80px;
   padding-right: 25%;
+}
+
+.products-footer > .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  margin-right: 20%;
+}
+
+.products-footer > .title > span {
+  font-weight: bold;
+  color: #13bc4a;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 0 5%;
+  grid-gap: 10px;
+}
+
+.products > .product {
+  display: grid;
+  grid-template-rows: 50px 1fr 50px 50px 30px;
+
+  justify-content: center;
+  align-items: center;
+  border: solid 2px #ccc;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.product:hover {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.19);
+}
+
+.product > .badge {
+  display: grid;
+  grid-column: 1;
+
+  width: 45%;
+  height: 40px;
+  align-items: center;
+  margin-top: 10px;
+  background: chartreuse;
+  border-radius: 0 10px 10px 0;
+  padding: 0 10px;
+  grid-template-columns: 20px 50px;
+  color: white;
+  font-weight: bold;
+}
+
+.product > img {
+  display: grid;
+}
+.product > .badge > span {
+  margin-left: 5px;
+}
+
+.product-title {
+  padding: 0 10%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.products > .product > .seller {
+  margin: 0 10%;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 12px;
+  color: #848484;
+}
+
+.products > .product > .seller > span {
+  color: #3aacd1;
+  font-weight: bold;
+}
+
+.products > .product > .price {
+  color: #9746d5;
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+.products > .next {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.products > .next > img {
+  border: solid 2px #ccc;
+  border-radius: 100%;
+}
+
+.next > img:hover {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.19);
+}
+
+.public {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  height: 100px;
+  margin-top: 50px;
+  align-items: center;
+  background: #a5d207;
+}
+
+.public > .chrome {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.public > .chrome > img {
+  grid-row: 1/3;
+}
+
+.public > .chrome > p {
+  font-weight: bold;
+}
+
+.public > .store {
+  display: grid;
+  grid-template-columns: 1fr 160px 160px;
+  align-items: center;
+  margin-right: 100px;
+}
+.public > .store > p > span {
+  font-weight: bold;
+}
+
+.footer {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  background: chocolate;
+  padding: 20px 7.5%;
+  color: white;
+}
+
+.footer > ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.footer > .social {
+  display: grid;
+  grid-template-rows: 2fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer > .social > li:nth-child(1) {
+  grid-column: 1/5;
+}
+
+.footer > p {
+  display: grid;
+  grid-column: 1/5;
+  margin-top: 20px;
 }
 </style>

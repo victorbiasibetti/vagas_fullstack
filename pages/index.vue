@@ -319,15 +319,16 @@ ul {
 }
 
 @media (min-width: 501px) {
-  .header > .logo {
+  .header {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    max-width: 100%;
-    max-height: 20%;
+  }
+  .header > .logo {
+    display: flex;
     padding: 20px 0;
     flex-wrap: wrap;
+    margin-left: 5%;
   }
   .header > .labels {
     padding: 0 5%;

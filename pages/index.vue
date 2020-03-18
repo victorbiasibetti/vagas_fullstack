@@ -14,24 +14,21 @@
       </div>
     </div>
 
-    <div class="app">
-      <div class="titulo">
-        <h1 class="a-4">Título da página</h1>
-        <p class="a-6">
+    <div class="app-header">
+      <div class="info">
+        <h1>Título</h1>
+        <p>
           Informação curta e direta sobre o app divulgado na página com foco nas
           funcionalidades
         </p>
-        <div class="icons">
+        <div class="lojas">
           <img src="../layout/assets/google-play_3.png" />
           <img
-            class="apple"
             src="../layout/assets/download-on-the-app-store-badge-ptbr-rgb-blk-092917_3.png"
           />
         </div>
       </div>
-      <div class="mobile">
-        <img src="../layout/assets/group-9.png" />
-      </div>
+      <img src="../layout/assets/group-9.png" />
     </div>
 
     <div class="information">
@@ -139,7 +136,6 @@
         <div class="lojas">
           <img src="../layout/assets/google-play_3.png" />
           <img
-            class="apple"
             src="../layout/assets/download-on-the-app-store-badge-ptbr-rgb-blk-092917_3.png"
           />
         </div>
@@ -315,32 +311,28 @@ ul {
 .logo-img {
   padding: 0 5%;
 }
-.app {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
 
-  margin: 0 auto;
-  padding: 20px 5%;
+.app-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  padding: 0 5%;
 }
-.mobile > img {
+.app-header > .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.app-header > img {
   width: 60%;
-  margin: 0 20%;
+  margin-right: 25%;
 }
-.titulo {
-  align-items: center;
-  max-height: 150px;
+.app-header > .info > h1 {
+  margin-bottom: 20px;
 }
-.titulo > h1 {
-  padding-bottom: 20px;
-}
-.titulo > p {
-  font-size: 14px;
-  padding-bottom: 40px;
-  padding-right: 60px;
-}
-.apple {
-  margin-left: 100px;
+.app-header > .info > p {
+  margin-bottom: 80px;
+  padding-right: 25%;
 }
 .information {
   background: #f7ffdc;
@@ -634,9 +626,20 @@ ul {
   display: grid;
   grid-column: 1/5;
   grid-row: 2;
-  align-self: flex-end;
+  margin-top: 30px;
+  display: block;
+  font-size: 14px;
 }
 .footer > p > span {
   font-weight: bold;
+}
+
+.lojas {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.lojas > img {
+  padding-right: 80px;
 }
 </style>

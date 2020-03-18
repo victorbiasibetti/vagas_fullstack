@@ -252,6 +252,8 @@
         <li>Fale Conosco</li>
         <li>Midia Kit / Parceria</li>
         <li>Dúvidas frequentes</li>
+        <li></li>
+        <li></li>
       </ul>
       <ul class="social">
         <li>Redes Sociais</li>
@@ -261,15 +263,16 @@
         <li><img src="../layout/assets/shape.png" /></li>
       </ul>
       <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        Lojas: Adidas, Americanas, Apple, Azul, Baby, bebê Store, Beleza na Web,
+        Camisaria Colombo, Carrefour, Casas Bahia, Centauro, Cipela, Cissa
+        Magazine, Dafiti, Decathlon, Dell, efácil, Época Cosméticos, Extra, Fast
+        Shop, Fnac, Girafa, Insinuante, Kabum, Kanui, Lenovo, Livraria Saraiva,
+        Magazine Luiza, Marisa, MegaMamute, Mobly, Netshoes, Nike, Ponto Frio,
+        Posthaus, Ricardo Eletro, Sépha Perfumaria, Sephora, Shopfato, Shoptime,
+        Sony, Sou Barato, Submarino, Submarino Viagens, Super Muffato.
+        <span>
+          Se sua marca não está listada, entre em contato com a nossa equipe.
+        </span>
       </p>
     </div>
   </div>
@@ -297,26 +300,21 @@ ul {
   padding: 20px 0;
   flex-wrap: wrap;
 }
-
 .labels {
   padding: 0 5%;
   display: flex;
   align-items: center;
 }
-
 .labels img {
   margin-right: 15px;
 }
-
 .labels div {
   align-items: center;
   width: fit-content;
 }
-
 .logo-img {
   padding: 0 5%;
 }
-
 .app {
   display: flex;
   flex-wrap: wrap;
@@ -325,21 +323,17 @@ ul {
   margin: 0 auto;
   padding: 20px 5%;
 }
-
 .mobile > img {
   width: 60%;
   margin: 0 20%;
 }
-
 .titulo {
   align-items: center;
   max-height: 150px;
 }
-
 .titulo > h1 {
   padding-bottom: 20px;
 }
-
 .titulo > p {
   font-size: 14px;
   padding-bottom: 40px;
@@ -348,7 +342,6 @@ ul {
 .apple {
   margin-left: 100px;
 }
-
 .information {
   background: #f7ffdc;
   padding: 40px;
@@ -366,13 +359,11 @@ ul {
   margin: 10px;
   padding: 70px;
 }
-
 .information > div > img {
   margin: 0 40%;
   justify-items: center;
   margin-bottom: 20px;
 }
-
 .information > div > h2 {
   margin: 0 40%;
   margin-bottom: 20px;
@@ -384,7 +375,6 @@ ul {
   margin: 10px;
   text-align: center;
 }
-
 .video {
   display: flex;
   flex-direction: column;
@@ -392,37 +382,30 @@ ul {
   padding-top: 100px;
   padding-bottom: 50px;
 }
-
 .video-titulo {
   width: 50%;
 }
-
 .video-titulo > h1 {
   padding-bottom: 20px;
   text-align: center;
 }
-
 .video-titulo > p {
   text-align: center;
   padding-bottom: 20px;
 }
-
 .video > img {
   width: 50%;
 }
-
 .marcas {
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 100px;
 }
-
 .marcas > h1 {
   width: 100%;
   text-align: center;
   margin-bottom: 30px;
 }
-
 .marcas > .texto {
   display: flex;
   flex-direction: column;
@@ -443,7 +426,6 @@ ul {
 .marcas > .texto > div > h3 {
   padding-bottom: 20px;
 }
-
 .marcas > .logos {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -451,7 +433,6 @@ ul {
   grid-gap: 10px 20px;
   margin-top: 30px;
 }
-
 .marcas > .logos > div {
   display: flex;
   justify-content: center;
@@ -460,7 +441,6 @@ ul {
   padding: 10% 20% 5% 20%;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.19);
 }
-
 .logos > div:nth-child(1) {
   background: #4a90e2;
 }
@@ -473,25 +453,21 @@ ul {
 .logos > div:nth-child(16) {
   background: #fedb00;
 }
-
 .app-footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   padding: 0 5%;
 }
-
 .app-footer > .info {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
 .app-footer > img {
   width: 60%;
   margin-left: 25%;
 }
-
 .app-footer > .info > h1 {
   margin-bottom: 20px;
 }
@@ -499,7 +475,6 @@ ul {
   margin-bottom: 80px;
   padding-right: 25%;
 }
-
 .products-footer > .title {
   display: flex;
   justify-content: space-between;
@@ -509,19 +484,16 @@ ul {
   margin-bottom: 20px;
   margin-right: 20%;
 }
-
 .products-footer > .title > span {
   font-weight: bold;
   color: #13bc4a;
 }
-
 .products {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   padding: 0 5%;
   grid-gap: 10px;
 }
-
 .products > .product {
   display: grid;
   grid-template-rows: 50px 1fr 50px 50px 30px;
@@ -532,11 +504,9 @@ ul {
   border-radius: 10px;
   width: 100%;
 }
-
 .product:hover {
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.19);
 }
-
 .product > .badge {
   display: grid;
   grid-column: 1;
@@ -552,20 +522,17 @@ ul {
   color: white;
   font-weight: bold;
 }
-
 .product > img {
   display: grid;
 }
 .product > .badge > span {
   margin-left: 5px;
 }
-
 .product-title {
   padding: 0 10%;
   text-align: center;
   margin-bottom: 20px;
 }
-
 .products > .product > .seller {
   margin: 0 10%;
   margin-bottom: 10px;
@@ -573,12 +540,10 @@ ul {
   font-size: 12px;
   color: #848484;
 }
-
 .products > .product > .seller > span {
   color: #3aacd1;
   font-weight: bold;
 }
-
 .products > .product > .price {
   color: #9746d5;
   font-weight: bold;
@@ -588,7 +553,6 @@ ul {
   align-items: center;
   margin-bottom: 10%;
 }
-
 .products > .next {
   display: flex;
   flex-direction: column;
@@ -599,11 +563,9 @@ ul {
   border: solid 2px #ccc;
   border-radius: 100%;
 }
-
 .next > img:hover {
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.19);
 }
-
 .public {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -613,22 +575,18 @@ ul {
   align-items: center;
   background: #a5d207;
 }
-
 .public > .chrome {
   display: grid;
   grid-template-columns: 40px 1fr;
   align-items: center;
   margin-left: 100px;
 }
-
 .public > .chrome > img {
   grid-row: 1/3;
 }
-
 .public > .chrome > p {
   font-weight: bold;
 }
-
 .public > .store {
   display: grid;
   grid-template-columns: 1fr 160px 160px;
@@ -638,16 +596,14 @@ ul {
 .public > .store > p > span {
   font-weight: bold;
 }
-
 .footer {
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: repeat(4, 1fr);
-  background: chocolate;
+  background: #415400;
   padding: 20px 7.5%;
   color: white;
 }
-
 .footer > ul {
   display: flex;
   flex-direction: column;
@@ -655,17 +611,32 @@ ul {
 }
 .footer > .social {
   display: grid;
-  grid-template-rows: 2fr;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
 }
-
 .footer > .social > li:nth-child(1) {
   grid-column: 1/5;
+  grid-row: 1/2;
+  align-self: flex-start;
 }
-
+.footer > .social > li:nth-child(2) {
+  grid-row: 2/5;
+  align-self: flex-start;
+}
+.footer > ul > li:nth-child(1) {
+  font-weight: bold;
+}
+.footer > ul > li:nth-child(n + 2) {
+  margin-top: 10px;
+}
 .footer > p {
   display: grid;
   grid-column: 1/5;
-  margin-top: 20px;
+  grid-row: 2;
+  align-self: flex-end;
+}
+.footer > p > span {
+  font-weight: bold;
 }
 </style>
